@@ -1,0 +1,337 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Header*/
+header {
+  width: 100%;
+  height: 700px;
+  background: url(../Recursos/Sin\ título\ \(1920 × 1080 px\)\ \(1\).png);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+header .textos-header {
+  font-family: "Playfair Display", serif;
+  display: flex;
+  height: 300px;
+  width: 40%;
+  margin: 20px 0 0 170px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: start;
+}
+header .textos-header h1 {
+  font-size: 30px;
+  margin: 10px;
+}
+header .textos-header h2 {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+  font-family: "Playfair Display", serif;
+}
+
+.card {
+  width: 100%;
+  height: 0;
+  padding-bottom: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Playfair Display", serif;
+}
+
+.card-body {
+  text-align: center;
+  background: #ECE9E6; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.card-body h5 {
+  color: black;
+}
+.card-body p {
+  color: black;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.card-grid {
+  margin: 0 auto;
+  max-width: 800px; /* ajusta el ancho máximo según tu diseño */
+}
+
+/*Sobre Graciela Gane*/
+.quien-somos {
+  font-family: "Playfair Display", serif;
+}
+.quien-somos h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-quien-somos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenido-textos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: start;
+  height: 200px;
+  width: 30%;
+}
+
+/*Footer*/
+.footer-distributed {
+  background: black;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font-family: "Playfair Display", serif;
+  padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+.footer-distributed .footer-left {
+  width: 40%;
+}
+
+/* The company logo */
+.footer-distributed h3 {
+  color: #ffffff;
+  font-family: "Playfair Display", serif;
+  margin: 0;
+}
+.footer-distributed h3 span {
+  color: rosybrown;
+}
+
+/* Footer links */
+.footer-distributed .footer-links {
+  color: #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  font-weight: 400;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+  color: #222;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+.footer-distributed .footer-center {
+  width: 35%;
+}
+
+.footer-distributed .footer-center i {
+  background-color: #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+  display: inline-block;
+  color: #ffffff;
+  font-weight: 400;
+  vertical-align: middle;
+  margin: 0;
+}
+.footer-distributed .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+.footer-distributed .footer-center p a {
+  color: rosybrown;
+  text-decoration: none;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight: 300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+.footer-distributed .footer-right {
+  width: 20%;
+}
+
+.footer-distributed .footer-company-about {
+  line-height: 20px;
+  color: #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .card-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+/* Para pantallas más pequeñas */
+@media (max-width: 767px) {
+  .card {
+    max-width: 400px;
+    width: 100%;
+    height: 0;
+    padding: 0%;
+  }
+  .card-body {
+    padding: 0% 30px;
+  }
+  .card h5 {
+    font-size: 1.5rem;
+  }
+  .card p {
+    font-size: 1rem;
+  }
+}
+/* Para pantallas medianas */
+@media (min-width: 768px) and (max-width: 991px) {
+  .card {
+    width: 45%;
+    height: 0;
+    padding-bottom: 45%;
+  }
+  .card-body {
+    padding: 1rem;
+  }
+  .card h5 {
+    font-size: 2rem;
+  }
+  .card p {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 880px) {
+  .footer-distributed {
+    font: bold 14px sans-serif;
+  }
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .footer-distributed .footer-center i {
+    margin-left: 0;
+  }
+}
+@media (max-width: 767px) {
+  .carousel-caption h3 {
+    position: relative;
+    background-color: transparent;
+    padding: 0;
+    font-size: 120%;
+  }
+}
+@media (max-width: 767px) {
+  .carousel-caption p {
+    position: relative;
+    background-color: transparent;
+    padding: 0;
+    font-size: 75%;
+  }
+}/*# sourceMappingURL=estilos.css.map */
