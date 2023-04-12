@@ -290,16 +290,20 @@ header .textos-header img {
 /*Sobre Graciela Gane*/
 .quien-somos {
   font-family: "Playfair Display", serif;
+  margin: 20px;
 }
 
 .contenedor-quien-somos {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #ffe3f1;
+  border-radius: 20px;
 }
 .contenedor-quien-somos img {
-  margin-right: auto;
-  height: 700px;
+  height: auto;
+  width: 700px;
+  border-radius: 20px 0 0 20px;
 }
 
 .contenido-textos {
@@ -308,15 +312,15 @@ header .textos-header img {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  margin: 20px;
+  height: auto;
+  width: 100%;
 }
 .contenido-textos p {
-  font-size: 18px;
-  height: 540px;
-  width: 100%;
+  font-size: 17px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 10px;
 }
 .contenido-textos h2 {
   margin: 10px;
@@ -640,10 +644,9 @@ body {
     font-family: "Playfair Display", serif;
     display: flex;
     flex-direction: column;
-    background-color: #f0eded;
-  }
-  .quien-somos h2 {
-    margin-top: 50px;
+    background-color: #ffe3f1;
+    margin: 20px;
+    border-radius: 20px;
   }
   .foto-grace {
     height: 50%;
@@ -654,11 +657,13 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border-radius: 20px;
   }
   .contenedor-quien-somos img {
     margin: auto;
     height: 100%;
     width: 100%;
+    border-radius: 20px 20px 0 0;
   }
   .contenido-textos {
     display: flex;
@@ -668,11 +673,9 @@ body {
     text-align: center;
   }
   .contenido-textos p {
-    height: 400px;
+    height: auto;
     width: 100%;
     font-size: 20px;
-    margin-right: 0%;
-    margin-bottom: 100px;
     padding: 10px;
   }
   .icono-menu {
@@ -732,9 +735,11 @@ body {
     font-family: "Playfair Display", serif;
     display: flex;
     flex-direction: column;
-    background-color: #f0eded;
+    background-color: #ffe3f1;
+    margin: 10px;
+    border-radius: 20px;
   }
-  .quien-somos h2 {
+  .quien-somos .h2 {
     margin-top: 50px;
   }
   .foto-grace {
@@ -751,6 +756,7 @@ body {
     margin: auto;
     height: 100%;
     width: 100%;
+    border-radius: 20px 20px 0 0;
   }
   .contenido-textos {
     display: flex;
@@ -760,12 +766,9 @@ body {
     text-align: center;
   }
   .contenido-textos p {
-    height: 410px;
+    height: auto;
     width: 100%;
     font-size: 15px;
-    margin-right: 0%;
-    margin-bottom: 70px;
-    padding: 10px;
   }
   .icono-menu {
     margin: 0 20px;
@@ -787,7 +790,7 @@ body {
   header {
     width: 100%;
     height: 400px;
-    background: url(../Recursos/Sin\ título\ \(1920 × 1080 px\)\ \(2\).png);
+    background: url(../Recursos/hospital-efecto-borroso.jpg);
     background-size: cover;
     position: relative;
   }
@@ -824,10 +827,12 @@ body {
     font-family: "Playfair Display", serif;
     display: flex;
     flex-direction: column;
-    background-color: #f0eded;
+    background-color: #ffe3f1;
+    margin: 20px;
+    border-radius: 20px;
   }
   .quien-somos h2 {
-    margin-top: 50px;
+    margin-top: 10px;
   }
   .foto-grace {
     height: 50%;
@@ -838,11 +843,13 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border-radius: 20px;
   }
   .contenedor-quien-somos img {
     margin: auto;
     height: 100%;
     width: 100%;
+    border-radius: 20px 20px 0 0;
   }
   .contenido-textos {
     display: flex;
@@ -852,12 +859,10 @@ body {
     text-align: center;
   }
   .contenido-textos p {
-    height: 400px;
+    height: -moz-max-content;
+    height: max-content;
     width: 100%;
     font-size: 15px;
-    margin-right: 0%;
-    margin-bottom: 250px;
-    padding: 10px;
   }
   .icono-menu {
     margin: 0 20px;

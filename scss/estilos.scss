@@ -301,14 +301,18 @@ header .textos-header{
 /*Sobre Graciela Gane*/
 .quien-somos{
     font-family: $letra-titulos;
+    margin: 20px;
 }
 .contenedor-quien-somos{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #ffe3f1;
+    border-radius: 20px;
     img{
-        margin-right: auto;
-        height: 700px;
+        height: auto;
+        width: 700px;
+        border-radius:20px 0 0 20px;
     }
 }
 .contenido-textos{
@@ -317,14 +321,15 @@ header .textos-header{
     align-items: center;
     flex-direction: column;
     text-align: center;
-    margin: 20px;
+    height: auto;
+    width: 100%;
     p{
-      font-size: 18px;
-        height: 540px;
-        width: 100%;
+      font-size: 17px;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: 10px;
+        
     }
     h2{
       margin: 10px;
@@ -670,11 +675,9 @@ body {
     font-family: $letra-titulos;
     display: flex;
     flex-direction: column;
-    background-color:#f0eded;
-    h2{
-        margin-top: 50px;
-    }
-    
+    background-color:#ffe3f1; 
+    margin: 20px;
+    border-radius: 20px;
     }
     .foto-grace{
     height: 50%;
@@ -685,10 +688,12 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border-radius: 20px;
     img{
         margin: auto;
         height: 100%;
         width: 100%;
+        border-radius: 20px 20px 0 0;
     }
     }
     .contenido-textos{
@@ -698,11 +703,9 @@ body {
     flex-direction: column;
     text-align: center;
     p{
-        height: 400px;
+        height: auto;
         width: 100%;
         font-size: 20px;
-        margin-right: 0%;
-        margin-bottom: 100px;
         padding: 10px;
     }
     
@@ -768,8 +771,10 @@ header .textos-header{
 font-family: $letra-titulos;
 display: flex;
 flex-direction: column;
-background-color:#f0eded;
-h2{
+background-color:#ffe3f1;
+margin: 10px;
+border-radius: 20px;
+.h2{
     margin-top: 50px;
 }
 
@@ -783,10 +788,13 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
+
 img{
     margin: auto;
     height: 100%;
     width: 100%;
+    border-radius: 20px 20px 0 0;
+    
 }
 }
 .contenido-textos{
@@ -796,12 +804,9 @@ align-items: center;
 flex-direction: column;
 text-align: center;
 p{
-    height: 410px;
+    height: auto;
     width: 100%;
     font-size: 15px;
-    margin-right: 0%;
-    margin-bottom: 70px;
-    padding: 10px;
 }
 
 }
@@ -825,7 +830,7 @@ cursor: pointer;
   header{
     width: 100%;
     height: 400px;
-    background: url(../Recursos/Sin\ título\ \(1920\ ×\ 1080\ px\)\ \(2\).png);
+    background: url(../Recursos/hospital-efecto-borroso.jpg);
     background-size: cover;
     position: relative;
 }
@@ -864,9 +869,11 @@ header .textos-header{
 font-family: $letra-titulos;
 display: flex;
 flex-direction: column;
-background-color:#f0eded;
+background-color:#ffe3f1;
+margin: 20px;
+border-radius: 20px;
 h2{
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 }
@@ -879,10 +886,12 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
+border-radius: 20px;
 img{
     margin: auto;
     height: 100%;
     width: 100%;
+    border-radius: 20px 20px 0 0;
 }
 }
 .contenido-textos{
@@ -892,12 +901,10 @@ align-items: center;
 flex-direction: column;
 text-align: center;
 p{
-    height: 400px;
+    height:max-content;
     width: 100%;
     font-size: 15px;
-    margin-right: 0%;
-    margin-bottom: 250px;
-    padding: 10px;
+
 }
 
 }
