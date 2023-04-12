@@ -291,12 +291,6 @@ header .textos-header img {
 .quien-somos {
   font-family: "Playfair Display", serif;
 }
-.quien-somos h2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
 
 .contenedor-quien-somos {
   display: flex;
@@ -314,13 +308,18 @@ header .textos-header img {
   align-items: center;
   flex-direction: column;
   text-align: center;
+  margin: 20px;
 }
 .contenido-textos p {
   font-size: 18px;
-  height: 300px;
-  width: 85%;
-  margin-right: 10%;
-  margin-bottom: 100px;
+  height: 540px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenido-textos h2 {
+  margin: 10px;
 }
 
 /*Footer*/
@@ -477,6 +476,73 @@ body {
   margin-top: 0;
 }
 
+/*Cursos*/
+.cursoGraciela .contenidoCursos {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: 40px;
+}
+.cursoGraciela .contenedorCurso {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fotoCurso {
+  width: 900px;
+  margin: auto;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+/*Boton*/
+.contactButton {
+  background: pink;
+  color: white;
+  font-family: inherit;
+  padding: 0.45em;
+  padding-left: 1em;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 0.9em;
+  border: none;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0 0 1.6em -0.6em rosybrown;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  padding-right: 3em;
+}
+
+.iconButton {
+  margin-left: 1em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 0.7em;
+  box-shadow: 0.1em 0.1em 0.6em 0.2em rosybrown;
+  right: 0.3em;
+  transition: all 0.3s;
+}
+
+.contactButton:hover {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em rosybrown;
+}
+
+.contactButton:active {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em #5566c2;
+}
+
+/*Acordeon*/
 @media screen and (min-width: 768px) {
   .card-grid {
     grid-template-columns: repeat(3, 1fr);
