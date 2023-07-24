@@ -779,7 +779,6 @@ body {
     text-align: center;
   }
   .contenido-textos p {
-    height: -moz-max-content;
     height: max-content;
     width: 100%;
     font-size: 15px;
@@ -814,4 +813,6 @@ body {
     flex-direction: column;
     margin: 20px;
   }
-}/*# sourceMappingURL=estilos.css.map */
+}
+
+/*# sourceMappingURL=estilos.css.map */
