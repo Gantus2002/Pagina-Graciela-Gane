@@ -361,14 +361,8 @@ body {
 }
 
 /*Cursos*/
-.cursoGraciela .contenidoCursos {
-  display: flex;
-  align-items: start;
-  justify-content: center;
-  flex-direction: column;
-  margin-right: 40px;
-}
-.cursoGraciela .contenedorCurso {
+.sectionCurso {
+  margin: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -376,9 +370,6 @@ body {
 
 .fotoCurso {
   width: 900px;
-  margin: auto;
-  margin-bottom: 100px;
-  margin-top: 50px;
 }
 
 /*Boton*/
@@ -577,10 +568,12 @@ body {
     display: flex;
     flex-direction: column;
   }
-  .contenedorCurso {
+  .cursoGraciela {
+    margin: 30px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
-    margin: 20px;
   }
   .fotoCurso {
     margin: 10px;
@@ -696,10 +689,11 @@ body {
     display: flex;
     flex-direction: column;
   }
-  .contenedorCurso {
+  .sectionCurso {
+    margin: 30px;
     display: flex;
-    flex-direction: column;
-    margin: 20px;
+    align-items: center;
+    justify-content: center;
   }
   .fotoCurso {
     width: 100%;
